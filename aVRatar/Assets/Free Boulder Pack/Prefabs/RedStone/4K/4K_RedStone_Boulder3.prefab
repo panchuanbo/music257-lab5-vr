@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3376896}
   - component: {fileID: 2398770}
   - component: {fileID: 9534582}
+  - component: {fileID: 114005579475309552}
   m_Layer: 0
   m_Name: 4K_RedStone_Boulder3
   m_TagString: Boulder
@@ -102,3 +103,14 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 131738}
   m_IsPrefabParent: 1
+--- !u!114 &114005579475309552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b137affdf48946d58a26e511d316f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

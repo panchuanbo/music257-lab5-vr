@@ -36,6 +36,10 @@ public class GM : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
+	}
+
+	private void FixedUpdate() {
 		Instantiate(getRandomBoulder(), getRandomPosition(), getRandomRotation());
 	}
 
@@ -52,7 +56,7 @@ public class GM : MonoBehaviour {
 
 	private Vector3 getRandomPosition() {
 		float x = Random.Range(-xRange, xRange);
-		float y = Random.Range(-yRange, yRange);
+		float y = Random.Range(0, yRange);
 		float z = Random.Range(-zRange, zRange);
 
 		return new Vector3(x, y, z);

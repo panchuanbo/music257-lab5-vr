@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 00000000000000000000000000000000
+  productGUID: fc6dd68fb1f0242dfa7a1e0c0b79d0db
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -698,10 +698,10 @@ PlayerSettings:
     Purchasing: 0
     UNet: 0
     Unity_Ads: 0
-  facebookSdkVersion: 
+  facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 7f208f86-a23a-4d53-ae68-5afb7f2a6cc3
-  projectName: 
+  projectName: aVRatar (1)
   organizationId: panchuanbo
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

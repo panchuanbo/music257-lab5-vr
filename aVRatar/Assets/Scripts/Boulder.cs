@@ -6,6 +6,7 @@ public class Boulder : MonoBehaviour {
 
 	float move = 0;
 	float speedFactor = 0.05f;
+
 	void Start () {
 		Color startColor = new Color( Random.value, Random.value, Random.value, 1.0f );
 		Renderer rend = GetComponent<Renderer>();
